@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+/* uiniversal */ 
+* {
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px; 
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input{
+	text-transform: uppercase;	
+}
+
+header{
+	width: 100%;
+	padding: 1em auto;
+	margin: 5px auto;
+	color: #fff
+}
+
+.hb{
+	width: 100%;
+	padding: 1em;
+  background-color: #3F51B5;
+  -webkit-flex-grow: 2;
+          flex-grow: 2;
+}
+
+form{
+	background-color: #ddd;
+	height: 100px;
+}
+
+.age_form{
+	padding-top: 10px;
+}
+
+/* php page */ 
+.consider{
+	width: 75%;
+	font-size: 24px
+}
+
+.message{
+	background-color: #ddd;
+	height: 250px;
+	padding: 10px 10px 0 10px;
+	font-size: 24px;
+	width: 76.4%;
+	margin: 0 auto 
+}
+
+.submit{
+	display: inline-block;
+}
+/* responsive */ 
+
+@-ms-viewport{
+  width: device-width;
+}
+
+@media screen and (max-width: 480px){
+	.submit{
+		padding-top: 10px;
+		display: block;
+	}
+}
